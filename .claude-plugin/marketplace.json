@@ -1,0 +1,15 @@
+{
+  "name": "neuro-home",
+  "owner": { "name": "Neuro Home", "email": "hello@neurlead.com" },
+  "metadata": { "description": "Neuro Home: book any home service from your AI chat." },
+  "plugins": [
+    {
+      "name": "neuro-home",
+      "source": "./",
+      "description": "Book any home service from Claude: installation, furniture assembly, TV mounting, repairs, plumbing and electrical fixtures, painting, smart home. 8 US cities.",
+      "version": "1.0.1",
+      "category": "productivity",
+      "homepage": "https://neurohome.us/ai/"
+    }
+  ]
+}

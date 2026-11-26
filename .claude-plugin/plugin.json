@@ -1,0 +1,9 @@
+{
+  "name": "neuro-home",
+  "version": "1.0.1",
+  "description": "Book any home service from Claude: installation, furniture assembly, TV mounting, repairs, plumbing and electrical fixtures, painting, smart home. 8 US cities.",
+  "author": { "name": "Neuro Home", "email": "hello@neurlead.com", "url": "https://neurohome.us" },
+  "homepage": "https://neurohome.us/ai/",
+  "repository": "https://github.com/Neurlead/neuro-home-mcp",
+  "keywords": ["home-services", "handyman", "booking", "home-repair", "mcp"]
+}

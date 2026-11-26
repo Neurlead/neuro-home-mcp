@@ -1,0 +1,11 @@
+{
+  "name": "neuro-home",
+  "version": "1.0.1",
+  "description": "Book any home service from your AI chat: installation, furniture assembly, TV mounting, repairs, plumbing and electrical fixtures, painting, smart home. 8 US cities.",
+  "mcpServers": {
+    "neuro-home": {
+      "httpUrl": "https://mcp.neurohome.us/neuro-home/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

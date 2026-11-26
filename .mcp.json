@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "neuro-home": {
+      "type": "http",
+      "url": "https://mcp.neurohome.us/neuro-home/mcp"
+    }
+  }
+}

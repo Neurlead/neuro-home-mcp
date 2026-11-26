@@ -12,7 +12,7 @@ client what is wrong at home, in your own words or with a photo. Neuro Home find
 jobs, offers free arrival times and books a technician. Then it tells you who is coming and when.
 
 **Who it is for:** homeowners and renters, landlords and property managers, and busy families in Miami, Tampa, Atlanta,
-Washington DC, Austin, Raleigh and Charlotte who want a repair booked in one conversation instead of calling around.
+Washington DC, Austin, Raleigh, Charlotte and Houston who want a repair booked in one conversation instead of calling around.
 
 #### What you can ask
 - "My kitchen faucet is dripping. What would a fix cost and when can someone come?"
@@ -86,7 +86,7 @@ No tool takes card data, returns a payment link, cancels, tips, disputes or move
 ## FAQ
 
 - **What is Neuro Home?** A home-repair booking service you can use inside ChatGPT, Claude and other AI assistants. It matches your problem to one of around 100 home services and books a technician at your home.
-- **Where does Neuro Home work?** Miami, Tampa, Atlanta, Washington DC, Austin, Raleigh and Charlotte.
+- **Where does Neuro Home work?** Miami, Tampa, Atlanta, Washington DC, Austin, Raleigh, Charlotte and Houston.
 - **How much does a repair cost with Neuro Home?** Ask your assistant, for example "how much to fix a leaking faucet". Neuro Home shows the cost for your job before anything is booked.
 - **What home services can I book?** Around 100 jobs: plumbing fixtures, electrical fixtures, TV mounting, furniture assembly, drywall, doors and locks, smart home, appliances, painting, tile and more.
 - **Do I pay in the chat?** No. After you book, we text your phone a secure link to confirm the booking on our website.
@@ -117,6 +117,19 @@ electrical panel" (needs a licensed contractor, handled by the office), "Pay my 
 ## Install
 
 Claude: Settings → Connectors → Add custom connector → `https://mcp.neurohome.us/neuro-home/mcp`
+
+Claude Code (plugin):
+
+```
+/plugin marketplace add Neurlead/neuro-home-mcp
+/plugin install neuro-home@neuro-home
+```
+
+Gemini CLI (extension):
+
+```
+gemini extensions install https://github.com/Neurlead/neuro-home-mcp
+```
 
 Any MCP client:
 
