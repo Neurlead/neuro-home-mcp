@@ -74,14 +74,16 @@ Questions: hello@neurlead.com · Website: https://neurohome.us
 | list_homes | The customer's saved homes | yes | no |
 | add_home | Saves an address to the customer's own account | no | yes |
 | find_times | Free arrival windows for a home | yes | no |
-| book_visit | Reserves a visit; we text the customer a link to confirm it; a technician is assigned once it is confirmed | no | yes (destructive hint) |
+| book_visit | Two steps: shows the summary (service, price, time, address) first; reserves only after the customer's yes. We text a link to confirm it; a technician is assigned once it is confirmed | no | yes (destructive hint) |
 | list_visits | The customer's upcoming and past visits | yes | no |
-| get_visit | One visit: status, arrival window, technician first name and ETA | yes | no |
+| get_visit | One visit: status, arrival window, technician first name; "on the way" and arrival estimate only while the technician is driving | yes | no |
 | find_new_times | Windows a visit can move to | yes | no |
-| reschedule_visit | Moves a visit to a new time; the technician is told | no | yes (destructive hint) |
+| reschedule_visit | Moves a visit to a new time; the technician is told and the customer is texted the new time | no | yes (destructive hint) |
+| cancel_visit | Two steps: shows the cancellation terms first; cancels only after the customer's yes, by the same rules as in the app | no | yes (destructive hint) |
+| change_service | Two steps: changes the booked service before a technician is assigned, at a price from our list, after the customer's yes | no | yes (destructive hint) |
 | get_bill | The final bill after the work | yes | no |
 
-No tool takes card data, returns a payment link, cancels, tips, disputes or moves money.
+No tool takes card data, returns a payment link, tips or disputes. cancel_visit can only trigger the app's own refund of the customer's own deposit, after their confirmed yes.
 
 ## FAQ
 
